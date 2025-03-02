@@ -1,7 +1,7 @@
 from posixpath import dirname
 from PIL import Image
 import os
-dirNameDefault = r"Z:\LS\000"
+dirNameDefault = r"Z:\001\img"
 
 def renamFilesInDir(dirFiles):
     listFiles = [f for f in os.listdir(dirFiles) if os.path.isfile(os.path.join(dirFiles, f))]
